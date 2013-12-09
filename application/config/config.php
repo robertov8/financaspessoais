@@ -28,6 +28,17 @@ $config['base_url']	= 'http://localhost/financaspessoais/';
 */
 $config['index_page'] = '';
 
+
+/*
+|--------------------------------------------------------------------------
+| Base Site DIR
+|--------------------------------------------------------------------------
+|
+| Get base dir of paste application
+*/
+
+$config['application_dir'] = '/opt/lampp/htdocs/montigas/application/';
+
 /*
 |--------------------------------------------------------------------------
 | URI PROTOCOL
@@ -224,7 +235,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = 'c0a9ac893a7e2de45cda476d1f7337a7';
+$config['encryption_key'] = 'a837089f479ad5585a3013b6638c0dcb';
 
 /*
 |--------------------------------------------------------------------------

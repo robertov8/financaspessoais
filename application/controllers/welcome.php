@@ -2,6 +2,10 @@
 
 class Welcome extends CI_Controller {
 
+	public function __construct(){
+		parent::__construct();
+		$this->load->library('smarty_ci');
+	}
 	/**
 	 * Index Page for this controller.
 	 *
@@ -17,9 +21,23 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function index()
-	{
+	public function index(){
+		
 		$this->load->view('welcome_message');
+
+	/*
+
+
+
+
+		<?php
+require_once('Smarty-3.1.15/libs/Smarty.class.php');
+$smarty = new Smarty();
+
+$hello = 'Hello Word';
+
+$smarty->assign('hello', $hello);
+$smarty->display('index.tpl');*/
 	}
 }
 
