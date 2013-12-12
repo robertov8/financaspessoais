@@ -10,5 +10,4 @@ application/logs/*
 
 
 /application/compile/
-/assets/files_upload/
-/assets/js/config.js	
+/assets/img/	
