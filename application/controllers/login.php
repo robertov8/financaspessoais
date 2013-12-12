@@ -8,7 +8,11 @@
  * @package    financaspessoais
  * @author     Roberto Ribeiro <robertov82008@gmail.com>
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @category   Controller 
+=======
+ * @category   Models 
+>>>>>>> 71869fb72a908484fff8ff36667c72868fb3dde7
 =======
  * @category   Models 
 >>>>>>> 71869fb72a908484fff8ff36667c72868fb3dde7
@@ -17,6 +21,7 @@
  * @version    0.1
  */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class Login extends MY_Controller {
 
@@ -35,6 +40,8 @@ class Login extends MY_Controller {
     	$this->parser->parse('login/login.tpl', $this->data);
 	}
 =======
+=======
+>>>>>>> 71869fb72a908484fff8ff36667c72868fb3dde7
 class Login extends CI_Controller {
 
     public function __construct(){
@@ -46,6 +53,9 @@ class Login extends CI_Controller {
     public function index(){
     	$this->parser->parse('login.tpl');
     }
+<<<<<<< HEAD
+>>>>>>> 71869fb72a908484fff8ff36667c72868fb3dde7
+=======
 >>>>>>> 71869fb72a908484fff8ff36667c72868fb3dde7
 
     public function login(){}
@@ -53,9 +63,13 @@ class Login extends CI_Controller {
     public function esqueci_minha_senha(){}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function criar_conta(){
     	$this->parser->parse('login/criar_conta.tpl', $this->data);
     }
+=======
+    public function criar_conta(){}
+>>>>>>> 71869fb72a908484fff8ff36667c72868fb3dde7
 =======
     public function criar_conta(){}
 >>>>>>> 71869fb72a908484fff8ff36667c72868fb3dde7

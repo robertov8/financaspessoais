@@ -26,11 +26,9 @@
 	  <div class="container">
 
 	  		<!-- Menu -->
-<<<<<<< HEAD
+
 	    	<div class="row"><!-- row - menu -->
-=======
-	    	<div class="row">
->>>>>>> 71869fb72a908484fff8ff36667c72868fb3dde7
+
 	    		<div class="col-sm-12">
 	    		
 	    			<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -42,11 +40,8 @@
             					<span class="icon-bar"></span>
             					<span class="icon-bar"></span>
           					</button>
-<<<<<<< HEAD
+
           					<a class="navbar-brand brand" href="{$BASE_URL}">Finanças Pessoais</a>
-=======
-          					<a class="navbar-brand brand" href="#">Finanças Pessoais</a>
->>>>>>> 71869fb72a908484fff8ff36667c72868fb3dde7
         				</div>
 
     	    			<!-- Collect the nav links, forms, and other content for toggling -->
@@ -54,18 +49,16 @@
           					
           					{block name=navbar}
 
-<<<<<<< HEAD
+
     						    {/block}
-=======
-    						{/block}
->>>>>>> 71869fb72a908484fff8ff36667c72868fb3dde7
+
         	  				
 						</div>
 
       				</nav>
 
 				</div><!-- Menu -->
-<<<<<<< HEAD
+
 			</div><!-- row - menu -->
 
 			{block name=body}
@@ -87,7 +80,7 @@
     			</div><!-- footer -->
     		
 	    </div><!-- container -->
-=======
+
 
 
 
@@ -97,7 +90,7 @@
     
 
 
-    			{/block}
+    		{/block}
 
 
 
@@ -106,7 +99,6 @@
 	    	</div>
 
 	    </div>
-    	
->>>>>>> 71869fb72a908484fff8ff36667c72868fb3dde7
+
     </body>
 </html>

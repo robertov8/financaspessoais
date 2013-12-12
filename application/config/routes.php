@@ -38,11 +38,8 @@
 |
 */
 
-<<<<<<< HEAD
 $route['default_controller'] = "login";
-=======
-$route['default_controller'] = "welcome";
->>>>>>> 71869fb72a908484fff8ff36667c72868fb3dde7
+
 $route['404_override'] = '';
 
 
